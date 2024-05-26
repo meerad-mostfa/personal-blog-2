@@ -1,0 +1,14 @@
+@import url("core.css");
+@import url("header.css");
+@import url( "home.css");
+@import url("post.css");
+@import url("footer.css");
+@import url("responnsive.css");
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+/* <link rel="stylesheet" href="static/core.css" />
+    <link rel="stylesheet" href="static/post.css" />
+    <link rel="stylesheet" href="static/header.css" />
+    <link rel="stylesheet" href="static/home.css" />
+    <link rel="stylesheet" href="static/footer.css" />
+    <link rel="stylesheet" href="static/responnsive.css" />*/

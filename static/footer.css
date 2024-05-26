@@ -1,0 +1,22 @@
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+  
+  .footer .row1 .coloumn1 .coloumn1a{
+    display: flex;
+width: 304px;
+gap: 14px;
+
+
+    } 
+    .footer .row1 .coloumn1 .coloumn1a .com{
+        display: flex;
+    gap: 4px;
+    }
+
+  

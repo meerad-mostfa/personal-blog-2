@@ -1,0 +1,338 @@
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .header .conteneer {
+        width: calc(100%-20px);
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+
+    .header .row {
+        display: flex;
+        padding: 16px 50px 20px 50px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .header .navbar a {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+ 
+    .header .navbar a {
+        font-size: 12px;
+    }
+    
+    .header .row {
+        display: flex;
+        padding: 14px 0px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+    .header .conteneer {
+        width: calc(100%-32px);
+        margin-top: 40px;
+    }
+
+
+
+}
+
+@media screen   and (max-width: 450px){
+    .header .navbar a {
+        font-size: 8px;
+    }
+    
+    .header .conteneer {
+        width: calc(100%-20px);
+    
+    }  
+    .navbar{
+        display: flex;
+        flex-wrap:nowrap;
+        gap: 4px;
+      
+    }
+    .header .row {
+        display: flex;
+        padding: 20px 20px 24px 20px;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .home .conteneer {
+        width: calc(100% - 40px);
+        margin: auto;
+    }
+    .home .conteneer strong{
+        color: #939a37;
+        margin: 5px;
+        font-size: 60px;
+        font-family: Be Vietnam Pro;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .home .conteneer {
+        width: calc(100% - 12px);
+        margin: auto;
+      
+    }
+    .home .conteneer strong{
+        color: #939a37;
+        margin: 5px;
+        font-size: 50px;
+        font-family: Be Vietnam Pro;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+
+
+    .home .conteneer {
+        width: calc(100% - 12px);
+        margin: auto;
+      
+    }
+    .home .conteneer strong{
+        color: #939a37;
+        margin: 5px;
+        font-size: 40px;
+        font-family: Be Vietnam Pro;
+    }
+
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .aboutme .conteneer {
+        width: calc(100% - 180px);
+    }
+
+    .aboutme .row {
+        gap: 60px;
+        margin-right: 10px;
+    }
+
+   
+
+    .aboutme .row2 {
+        display: flex;
+        gap: 20px;
+    }
+
+    .aboutme .row22 {
+        display: flex;
+        gap: 20px;
+    }
+
+    .aboutme .home2 {
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    .aboutme2 .conteneer1 {
+        display: flex;
+        gap: 24px;
+     
+    }
+    .aboutme blockquote{
+        font-size: medium;
+    }
+    .aboutme p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .aboutme .conteneer {
+        width: calc(100% - 32px);
+    }
+
+    .aboutme .row22 {   
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aboutme .row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 30px;
+
+    }
+ 
+    .aboutme .row2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        align-self: stretch;
+        flex-wrap: wrap;
+    }
+
+    
+    .aboutme .row22 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        align-self: stretch;
+        flex-wrap: wrap;
+    }
+
+    .aboutme .aboutme2{
+        display: flex;
+        padding: 14px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .aboutme2 .conteneer1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+    .aboutme2 .conteneer1 p {
+        font-size:medium;
+        font-family: Be Vietnam Pro;
+    }
+    
+.aboutme2 blockquote{
+    font-size: medium;
+}
+.aboutme blockquote{
+    font-size: medium;
+}
+.aboutme p{
+    font-size: 20px;
+}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    footer{
+       
+        margin-top: 600px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    footer{
+       
+        margin-top: 700px;
+        width:100%;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    footer{
+       
+        margin-top: 700px;
+        width:100%;
+    }
+    footer p{
+        font-size: small;
+    }
+   
+
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .blog-posts {
+        display: flex;
+        flex-direction: column;
+    padding: 5px;
+    margin-top: 50px;
+      }
+      .blog-posts .conteneer{
+            width: calc(100% - 320px);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+      }
+      
+    
+      .post-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 70px;
+        margin-top: 30px;
+      }
+      
+      article {
+        /*padding: 20px;*/
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: auto;
+    height: 150px;
+    width: 350px;
+    background-color: blanchedalmond;
+      }
+}
+
+@media screen and (max-width: 800px) {
+    .blog-posts {
+        display: flex;
+        flex-direction: column;
+    padding: 10px;
+    margin-top: 50px;
+      }
+      .blog-posts .conteneer{
+            width: calc(100% - 35px);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+            margin-right: 10px;
+      }
+      
+    
+      .post-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 100px;
+        margin-top: 30px;
+        margin-left: -70px;
+      }
+      
+      article {
+        /*padding: 20px;*/
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: auto;
+    height: 160px;
+    width: 220px;
+    background-color: blanchedalmond;
+      }
+      u{
+        font-size: large;
+        color: rgb(48, 107, 122);
+    }
+    em{
+        color: cadetblue;
+        font-size: large;
+        margin: 15px;
+    }
+}

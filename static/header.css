@@ -1,0 +1,50 @@
+@import url("static/main.css");
+@import url("static/core.css");
+@import url("static/post.css");
+@import url( "static/home.css");
+@import url("static/footer.css");
+@import url("static/responnsive.css");
+
+.header {    
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.header .conteneer {
+    width: calc(100%-60px);
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: 1px solid var(--white-95, #F1F1F3);
+}
+
+.header .row {
+    display: flex;
+    padding: 20px 132px 24px 132px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logonav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.header .navbar {
+    display: flex;
+    gap: 26px;
+
+}
+
+.header .navbar a {
+    align-items: center;
+    font-size: 18px;
+    color: var(--grey-15, #262626);
+}
+
+
+
+
